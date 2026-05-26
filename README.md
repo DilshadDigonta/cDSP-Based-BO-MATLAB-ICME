@@ -69,7 +69,7 @@ This folder includes:
 ```text
 analytical-test-problem/
 │
-├── 9th-order-polynomial-test-problem.md
+├── 8th-order-polynomial-test-problem.md
 ├── BOwithcDSPtestproblem.m
 ├── d_min.p
 ├── EMI_Min.p
@@ -79,7 +79,7 @@ analytical-test-problem/
 └── PredictGPModel.p
 ```
 
-The file `9th-order-polynomial-test-problem.md` provides the detailed problem description, code explanation, required files, and instructions for running the analytical benchmark.
+The file `8th-order-polynomial-test-problem.md` provides the detailed problem description, code explanation, required files, and instructions for running the analytical benchmark.
 
 ---
 
