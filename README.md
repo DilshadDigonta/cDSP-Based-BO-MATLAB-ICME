@@ -34,7 +34,7 @@ cDSP-BO-ICME-MATLAB/
 ├── README.md
 │
 ├── analytical-test-problem/
-│   ├── 9th-order-polynomial-test-problem.md
+│   ├── 8th-order-polynomial-test-problem.md
 │   ├── BOwithcDSPtestproblem.m
 │   ├── d_min.p
 │   ├── EMI_Min.p
