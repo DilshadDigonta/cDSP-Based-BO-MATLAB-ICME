@@ -8,7 +8,7 @@ This MATLAB implementation is intended to support reproducibility, further devel
 
 This MATLAB repository includes two main examples:
 
-1. an analytical test problem based on a nonlinear ninth-order polynomial function, and  
+1. an analytical test problem based on a nonlinear eighth-order polynomial function, and  
 2. an industry-inspired hot rod rolling case study.
 
 ---
@@ -53,14 +53,14 @@ cDSP-BO-ICME-MATLAB/
 
 | Folder | Description |
 |---|---|
-| `analytical-test-problem/` | Contains the MATLAB implementation of the ninth-order polynomial benchmark problem used to evaluate the behavior of the proposed cDSP-based BO framework |
+| `analytical-test-problem/` | Contains the MATLAB implementation of the eighth-order polynomial benchmark problem used to evaluate the behavior of the proposed cDSP-based BO framework |
 | `industry-test-problem/` | Contains the MATLAB implementation of the industry-inspired hot rod rolling case study used to demonstrate the framework in an ICME design context |
 
 ---
 
 ## Analytical Test Problem
 
-The analytical test problem uses a ninth-order polynomial function as the system response function. 
+The analytical test problem uses an eighth-order polynomial function as the system response function. 
 
 The purpose of this example is to demonstrate how the proposed cDSP-based BO framework identifies robust satisficing regions rather than converging only to a single-point optimum.
 
@@ -258,7 +258,7 @@ FitGPModel.p
 PredictGPModel.p
 ```
 
-are not original source code developed by the repository author. They are included as executable protected files for Gaussian Process modeling and should be cited according to the referenced publication.
+are not the original source code developed by the repository author. They are included as executable protected files for Gaussian Process modeling and should be cited according to the referenced publication.
 
 ---
 
