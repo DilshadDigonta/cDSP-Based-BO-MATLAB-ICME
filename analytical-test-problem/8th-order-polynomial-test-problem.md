@@ -1,4 +1,4 @@
-# Test Problem: cDSP-Based Bayesian Optimization for a Ninth-Order Polynomial Function
+# Test Problem: cDSP-Based Bayesian Optimization for an Eighth-Order Polynomial Function
 
 This document describes the MATLAB implementation of a benchmark test problem used to evaluate the proposed compromise Decision Support Problem-based Bayesian Optimization framework, referred to as **cDSP-based BO**.
 
@@ -8,7 +8,7 @@ The purpose of this test problem is to demonstrate how the proposed cDSP-based B
 
 ## Problem Description
 
-To test the performance of the proposed cDSP-based BO approach, a ninth-order polynomial function is considered as the system response function. The function is defined as:
+To test the performance of the proposed cDSP-based BO approach, an eighth-order polynomial function is considered as the system response function. The function is defined as:
 
 $$
 f(x)=\sum_{i=1}^{9} a_i (x-900)^{i-1}
@@ -35,7 +35,7 @@ The coefficients are given as follows:
 | $$a_8$$ | $$1.6606 × 10^{-8}$$ |
 | $$a_9$$ | $$-3.5757 × 10^{-11}$$ |
 
-The selected ninth-order polynomial introduces a nonlinear response landscape with multiple local variations and sensitivity regions. This makes it suitable for evaluating the behavior of the proposed cDSP-based BO framework and the updated acquisition function.
+The selected eighth-order polynomial introduces a nonlinear response landscape with multiple local variations and sensitivity regions. This makes it suitable for evaluating the behavior of the proposed cDSP-based BO framework and the updated acquisition function.
 
 The benchmark is used to illustrate how the proposed approach supports:
 
@@ -54,7 +54,7 @@ This test problem folder contains seven MATLAB-related files:
 ```text
 test-problem-polynomial-cdsp-bo/
 │
-├── 9th-order-polynomial-test-problem.md
+├── 8th-order-polynomial-test-problem.md
 │
 ├── BOwithcDSPtestproblem.m
 ├── d_min.p
@@ -123,10 +123,10 @@ srgtsDOEOLHS
 srgtsScaleVariable
 ```
 
-These functions are used to generate and scale the design of experiments samples for:
+These functions are used to generate and scale the design of experiment samples for:
 
-1. the initial Gaussian Process training data, and  
-2. the candidate sample pool used during the Bayesian Optimization iterations.
+1. The initial Gaussian Process training data, and  
+2. The candidate sample pool used during the Bayesian Optimization iterations.
 
 Before running the code, make sure the SURROGATES Toolbox is added to the MATLAB path.
 
