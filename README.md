@@ -267,9 +267,8 @@ are not the original source code developed by the repository author. They are in
 For questions, suggestions, or collaboration inquiries, please contact:
 
 **H M Dilshad Alam Digonta**  
-Systems Realization Laboratory @ FIT
-Florida Institute of Technology  
-email: hdigonta2023@my.fit.edu
+Systems Realization Laboratory @ Florida Institute of Technology  
+Email: hdigonta2023@my.fit.edu
 
 **Maryam Ghasemzadeh**  
 University College Dublin (UCD)
